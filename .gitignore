@@ -1,0 +1,52 @@
+# -----------------------------
+# Vivado / FPGA build artifacts
+# -----------------------------
+/build/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.xpr
+*.xpr.user
+*.str
+
+# Vivado logs / journals / reports
+*.jou
+*.log
+*.pb
+*.wdb
+*.wdf
+*.dcp
+*.rpt
+*.xml
+*.csv
+*.html
+*.ltx
+*.hwdef
+*.sysdef
+
+# Generated hardware outputs
+*.bit
+*.bin
+*.mcs
+*.xsa
+*.hwh
+
+# Temporary / backup files
+*.backup.jou
+*.backup.log
+*.bak
+*~
+
+# Local tool/editor settings
+.local/
+.settings/
+.vscode/
+.idea/
+
+# OS cruft
+.DS_Store
+Thumbs.db
